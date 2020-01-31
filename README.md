@@ -1,5 +1,5 @@
 ## WEB PERFORMANCE HELPER
-A library which will contain helper functions for boosting our application's  performans.
+A library which will contain helper functions for boosting our application's  performance.
 
 ### Install
 ```
@@ -11,7 +11,7 @@ npm install @mehmetsefabalik/webperf-helper
 import { handle } from "@mehmetsefabalik/webperf-helper/dist/network"
 ```
 
-#### Bundle It and Use As Script
+#### Bundle It and Use As a Script
 
 - Clone
 ```
