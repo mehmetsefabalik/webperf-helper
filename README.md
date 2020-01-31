@@ -36,6 +36,8 @@ The script will detect the device's network status, and set the network status a
 
 #### Network
 
+Network module contains helper functions to detect, store, read device's network status. We can use this information for adaptive loading.
+
 ##### Handle Function
 
 ```
