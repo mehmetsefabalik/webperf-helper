@@ -1,4 +1,4 @@
-import { createCookie } from "@trendyol/cookie-helper";
+import { createCookie, readCookie } from "@trendyol/cookie-helper";
 
 export enum Connection {
   "none" = "none",
@@ -20,6 +20,10 @@ export const networkStatus = (): Response => {
 
 export const setNetworkStatusCookie = (networkStatus: keyof typeof Connection) => {
   createCookie("network-status", networkStatus);
+}
+
+export const getNetworkStatusCookie = () => {
+  return readCookie("network-status");
 }
 
 export const handle = () => {
