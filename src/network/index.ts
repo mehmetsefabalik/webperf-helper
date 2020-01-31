@@ -18,7 +18,7 @@ export const networkStatus = (): Response => {
   return (window.navigator as any).connection.effectiveType
 }
 
-export const setNetworkStatusCookie = (networkStatus: keyof typeof Connection) => {
+const setNetworkStatusCookie = (networkStatus: keyof typeof Connection) => {
   createCookie("network-status", networkStatus);
 }
 

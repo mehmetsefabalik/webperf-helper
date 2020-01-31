@@ -1,4 +1,4 @@
-import { networkStatus, Connection } from "./network";
+import { networkStatus, Connection } from ".";
 
 describe("Network", () => {
   describe("networkStatus", () => {

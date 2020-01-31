@@ -1,8 +1,8 @@
 const path = require('path');
 module.exports = {
-   entry: "./src/index.ts",
+   entry: "./src/network.handler.ts",
    output: {
-       filename: "bundle.js",
+       filename: "network.js",
        path: path.resolve(__dirname, 'dist')
    },
    resolve: {
