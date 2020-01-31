@@ -3,7 +3,7 @@
   "name": "@mehmetsefabalik/webperf-helper",
   "version": "1.0.0",
   "description": "Helper functions to boost web performance",
-  "repository": "git://github.com/mehmetsefabalik/cookie-helper.git",
+  "repository": "git://github.com/mehmetsefabalik/webperf-helper.git",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "scripts": {
